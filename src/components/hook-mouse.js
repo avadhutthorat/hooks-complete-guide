@@ -11,6 +11,10 @@ const HookMouse = () => {
   useEffect(() => {
     console.log("In use effect");
     window.addEventListener("mousemove", setMousePosition);
+    return () => {
+      console.log("component un mounted");
+      window.removeEventListener("mousemove", setMousePosition);
+    };
   }, []);
   return (
     <div>
