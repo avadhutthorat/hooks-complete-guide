@@ -6,7 +6,8 @@ import "./App.css";
 // import HookCounterTwo from "./components/hook-counter-two";
 // import HookCounterThree from "./components/hook-counter-three";
 // import UseEffectHookCounter from "./components/useeffect-hook-counter";
-import UseEffectConditionalHookCounter from "./components/useEffect-conditional-counter";
+// import UseEffectConditionalHookCounter from "./components/useEffect-conditional-counter";
+// import HookMouse from "./components/hook-mouse";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <hr />
       <HookCounterThree /> */}
       {/* <UseEffectHookCounter /> */}
-      <UseEffectConditionalHookCounter />
+      {/* <UseEffectConditionalHookCounter /> */}
+      {/* <HookMouse /> */}
     </div>
   );
 }
