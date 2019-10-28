@@ -9,7 +9,9 @@ import "./App.css";
 // import UseEffectConditionalHookCounter from "./components/useEffect-conditional-counter";
 // import HookMouse from "./components/hook-mouse";
 // import MouseContainer from "./components/mouse-container";
-import IntervalHookCounter from "./components/interval-hook-counter";
+// import IntervalHookCounter from "./components/interval-hook-counter";
+// import HookDataFetch from "./components/hook-data-fetch";
+import HookDataFetch1 from "./components/hook-data-fetch-1";
 
 function App() {
   return (
@@ -27,7 +29,8 @@ function App() {
       {/* <UseEffectConditionalHookCounter /> */}
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <HookDataFetch1 />
     </div>
   );
 }
